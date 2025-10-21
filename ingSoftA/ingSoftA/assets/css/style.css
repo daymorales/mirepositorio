@@ -1,0 +1,44 @@
+* { margin: 0px; padding: 0px; }
+ul, ol { list-style: none;}
+a { text-decoration: none; }
+
+body { font-family: 'work Sans', sans-serif; font-size: 13px; }
+
+h1 { font-size: 24px; }
+h2 { font-size: 20px; font-weight: 600; }
+h3 { font-size: 16px; font-weight: 600; }
+
+/*Button*/
+.Bt1 { background-color: #373ca6; color: #fff; padding: 10px 15px; 
+     border: 0; border-radius: 15px; cursor: pointer; }
+.Bt1:hover { background-color: #1f217e; color: #91f36e; }
+
+/*Content*/
+.Contptc { margin: 0 auto; width: auto; height: auto;
+		display: flex; align-items: flex-start; justify-content: center; }
+.Contvtc { display: flex; flex-direction: column; justify-content: flex-start; align-items: center; }
+.Contvtl { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; }
+.Contvcc { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.Contvcl { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.Contvcr { display: flex; flex-direction: column; justify-content: center; align-items: flex-end; }
+.Conthtc { display: flex; align-items: flex-start; justify-content: center; }
+.Conthtl { display: flex; align-items: flex-start; justify-content: left; }
+.Conthtj { display: flex; align-items: flex-start; justify-content: space-between; }
+.Conthcc { display: flex; align-items: center; justify-content: center; }
+.Conthcl { display: flex; align-items: center; justify-content: flex-start; }
+.Conthcr { display: flex; align-items: center; justify-content: flex-end; }
+.Conthcj { display: flex; align-items: center; justify-content: space-between; }
+.Conthcs { display: flex; align-items: center; justify-content: space-around; }.product { width: 30%; text-align: center; margin-bottom: 20px; }
+.product img { height: 150px; margin-bottom: 10px; }
+.product h2 { font-size: 18px; margin-bottom: 7px; }
+.product p { font-weight: bold; color: #555; margin-bottom: 10px; }
+
+#menu { height: 38px; display: flex; align-items: center;
+        background: #a9acf0; box-shadow: 0 2px 4px rgba(69, 69, 69, 0.1); }
+nav ul li {float: left; padding: 5px 15px; border-right: 2px solid #cfbfbf;}
+nav ul li a { display: block; padding: 5px 10px; cursor: pointer; width: auto; color: #eeebf6; } 
+nav ul li a:hover { font-size: 16px; color: #d4d4d4; background: #4a8abad2; border-radius: 20px; } 
+ 
+/*Logos*/
+.ImgLog2 { width: 60px; height: 38px; }
+.ImgLog3 { width: 35px; height: 35px; }
